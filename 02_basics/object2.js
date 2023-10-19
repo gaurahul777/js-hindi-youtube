@@ -49,13 +49,38 @@ const users=[
 ]
 
 // console.log(users[1].email);
-console.log(tinderuser);
+// console.log(tinderuser);
 
-console.log(Object.keys(tinderuser));//data type aaray yha apne sari keys ko liya usew ek array me rkha aur ab chhaye to aap us per loop lga sakte hain same we do for object values
+// console.log(Object.keys(tinderuser));//data type aaray yha apne sari keys ko liya usew ek array me rkha aur ab chhaye to aap us per loop lga sakte hain same we do for object values
 
 // console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));//jitni bhi entry h unka bhi ek array bn jayega array within array
+// console.log(Object.entries(tinderuser));//jitni bhi entry h unka bhi ek array bn jayega array within array
 
 //ask object ki tumhare pass yh wali property hain ya nahi
 
-console.log(tinderuser.hasOwnProperty('isLoggedIn'));//true
+// console.log(tinderuser.hasOwnProperty('isLoggedIn'));//true
+
+//part 3
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh",
+}
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor,price}=course//object destructure jo value chhaiye usew destructure ker liya ab hume course.courseInstructor is trh se access kerne ki need nhi h direct access ker sakte hain
+// console.log(courseInstructor,price);
+
+const key="email"
+const person={
+    age:80,
+    name:"tarun"
+}
+// person["key"]="rahul@gmail"//key:rahul@gmail.com
+person[key]="rahul@gmail"//email:rahul@gmail.com
+
+// console.log(person);
+
+
