@@ -62,5 +62,5 @@ jsuser.greetingTwo=function(){
 
 // console.log(jsuser.greeting);//func not execute bs uska reference aaya h
 
- console.log(jsuser.greeting());//execute + output
+//  console.log(jsuser.greeting());//execute + output
  console.log(jsuser.greetingTwo());
